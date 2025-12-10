@@ -50,8 +50,6 @@ namespace FlightTickets.PaymentAPI.Services
 				throw;
 			}
 
-
-
         }
 
 

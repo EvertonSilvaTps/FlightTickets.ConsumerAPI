@@ -6,7 +6,6 @@ namespace FlightTickets.PaymentAPI.Services.Interfaces
     {
         Task GetTicketsFromQueueAsync();
 
-
         Task ValidatePaymentTicket(Ticket ticket);
 
     }
