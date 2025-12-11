@@ -9,6 +9,7 @@ namespace FlightTickets.OrderAPI.Services
 {
     public class TicketService : ITicketService
     {
+
         public async Task<TicketResponseDTO> CreateTicketAsync(TicketRequestDTO ticketRequest)
         {
             try
